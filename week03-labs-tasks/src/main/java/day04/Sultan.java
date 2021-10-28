@@ -17,14 +17,6 @@ public class Sultan {
         System.out.println();
 
         prison.openFreeCells();
-        for (int i = 1; i <= 100 ; i++) {
-
-            System.out.print(i + ". ");
-            for (int j = 0; j < prison.getPrisonSize(); j++) {
-                System.out.print(prison.getPrisoner(j) + ",");
-            }
-            System.out.println();
-        }
 
         int numberOfFreePrisoner = 0;
         for (int i = 0; i < prison.getPrisonSize(); i++) {
